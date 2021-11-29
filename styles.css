@@ -2,6 +2,10 @@
     font-family: 'auth';
     src: url('auth.otf');
 }
+@font-face{
+    font-family: 'sq';
+    src: url('square.otf');
+}
 body{
     background-color: whitesmoke;
 }
@@ -14,7 +18,7 @@ body{
 }
 #logodiv a{
     font-weight: 500;
-    font-family: 'auth';
+    font-family: 'sq';
     text-decoration: none;
     color: black;
     transition: all .2s;
@@ -47,5 +51,5 @@ body{
 h1{
     width: 100vw; 
     text-align: center;
-    font-family: 'auth';
+    font-family: 'sq';
 }
