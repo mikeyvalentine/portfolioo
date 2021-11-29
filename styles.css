@@ -1,0 +1,51 @@
+@font-face{
+    font-family: 'auth';
+    src: url('auth.otf');
+}
+body{
+    background-color: whitesmoke;
+}
+#logodiv{
+    width: 100vw;
+    text-align: center;
+    font-size: 3em;
+    display: flex;
+    justify-content: space-around;
+}
+#logodiv a{
+    font-weight: 500;
+    font-family: 'auth';
+    text-decoration: none;
+    color: black;
+    transition: all .2s;
+}
+#logodiv a:hover{
+    color: #32cd80;
+    text-shadow: 0px 2px 5px #32cd80;
+}
+#menuitem img{
+    width: 100%;
+}
+#menuitem video{
+    width: 100%;
+}
+#menu{
+    width: 100vw;
+    padding: 10px;
+    display: flex;
+    flex: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+#menuitem{
+    margin-bottom: 50px;
+    width: 40vw;
+    min-width: 600px;
+}
+h1{
+    width: 100vw; 
+    text-align: center;
+    font-family: 'auth';
+}
